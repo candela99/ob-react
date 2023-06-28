@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* Componente propio Greeting.jsx, es una instancia de la clase */}
-        <GreetingF name="Candela"></GreetingF>
+        <TaskListComponent></TaskListComponent>
         <a
           className="App-link"
           href="https://reactjs.org"
