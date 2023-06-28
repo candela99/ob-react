@@ -6,7 +6,11 @@ import TaskComponent from '../pure/task';
 
 const TaskListComponent = () => {
 
-    const defaultTask = new Task('Example', 'Default description', false, LEVELS.NORMAL);
+    const changeState = (id) => {
+        console.log('TODO: cambiar el estado de una tarea');
+    } 
+
+    const defaultTask = new Task('Mi primera tarea', 'Default description', false, LEVELS.NORMAL);
 
     return (
         <div>
